@@ -5,6 +5,9 @@
     font-family: Solway, serif;
     
 }
+.nav-link:hover{
+    color: black;
+}
 .nav{
 display: flex;
 align-items: center;
