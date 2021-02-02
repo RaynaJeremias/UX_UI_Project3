@@ -1,0 +1,200 @@
+/* navigation */
+.nav-link{
+    color: black;
+    font-size:24px;
+    font-family: Solway, serif;
+    
+}
+.nav-link:hover{
+    color: black;
+}
+.nav{
+display: flex;
+align-items: center;
+}
+.btn{
+    background-color: #94091D;
+    border: none;
+    font-size: 24px;
+    font-family: Solway, serif;
+    margin-left: 5px;
+}
+.btn:hover{
+    background-color:#740818;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #94091D;
+    min-width: 160px;
+    width: 98%;
+    margin-left: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 0px 0px 10px 10px;
+}
+.dropdown-content a{
+    text-align: center;
+    font-family: Solway, serif;
+    font-size: 24px;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #740818;
+    border-radius: 0px 0px 10px 10px;
+}
+.show{
+    display: block;
+}
+.fa-search{
+    font-size: 24px;
+    width: 30px;
+    position: relative;
+    margin: 20px;
+}
+.fa-shopping-cart{
+    font-size: 24px;
+    width: 30px;
+    position: relative;
+    margin: 20px;
+}
+.heading-box{
+    display: inline;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+    /* align-items: center; */
+}
+.heading{
+    font-family: Raleway, serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.text{
+    font-family: Assistant, sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    
+}
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0;
+    /* font-family: Arial; */
+  }
+  
+  /* Style tab links */
+  .tablink1 {
+    background-color: #A2DFE2;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-family: Raleway, serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 16.666%;
+  }
+  .tablink2{
+    background-color: #FAD5F1;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-family: Raleway, serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 16.666%;
+  }
+  .tablink3{
+    background-color: #F8ECD3;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-family: Raleway, serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 16.666%; 
+  }
+  .tablink4{
+    background-color: #FFA5B6;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1px;
+    font-family: Raleway, serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 16.666%; 
+  }
+  .tablink5{
+    background-color: #DDFDFF;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-family: Raleway, serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 16.666%; 
+  }
+  .tablink6{
+    background-color: #F5AEE4;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-family: Raleway, serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 16.666%; 
+  }
+  .tablink:hover {
+    /* background-color: #777; */
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: black;
+    display: none;
+    padding-top: 100px;
+    text-align: center;
+    height: 100%;
+  }
+  h3{
+      font-size: 48;
+  }
+  
+  #Cupcakes {background-color: #A2DFE2;}
+  #CelebrationCakes {background-color: #FAD5F1;}
+  #CookiesAndBars {background-color: #F8ECD3;}
+  #Pastries {background-color: #FFA5B6;}
+  #SomethingSavory{background-color:#DDFDFF;}
+  #MerchandGifts{background-color: #F5AEE4;}
+.img-footer{
+    width: 100%;
+    /* max-width: 1600px; */
+    margin-top: -50px;
+}

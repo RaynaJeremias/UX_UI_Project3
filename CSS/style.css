@@ -170,7 +170,7 @@ margin-bottom:50px;
 }
 .img-footer{
     width: 100%;
-    max-width: 1600px;
+    /* max-width: 1600px; */
     margin-top: -50px;
 }
 .review-jumbo{
@@ -210,6 +210,7 @@ reviewtext{
     
     
 }
+
 @media screen and (max-width:500px){
     .container-practice{
         grid-template-rows: 1fr 1fr;

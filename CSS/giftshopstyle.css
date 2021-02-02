@@ -1,0 +1,129 @@
+/* navigation */
+.nav-link{
+    color: black;
+    font-size:24px;
+    font-family: Solway, serif;
+    
+}
+.nav-link:hover{
+    color: black;
+}
+.nav{
+display: flex;
+align-items: center;
+}
+/* button*/
+.btn{
+    background-color: #94091D;
+    border: none;
+    font-size: 24px;
+    font-family: Solway, serif;
+    margin-left: 5px;
+}
+.btn:hover{
+    background-color:#740818;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #94091D;
+    min-width: 160px;
+    width: 98%;
+    margin-left: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 0px 0px 10px 10px;
+}
+.dropdown-content a{
+    text-align: center;
+    font-family: Solway, serif;
+    font-size: 24px;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #740818;
+    border-radius: 0px 0px 10px 10px;
+}
+.show{
+    display: block;
+}
+/* Icons*/
+.fa-search{
+    font-size: 24px;
+    width: 30px;
+    position: relative;
+    margin: 20px;
+}
+.fa-shopping-cart{
+    font-size: 24px;
+    width: 30px;
+    position: relative;
+    margin: 20px;
+}
+/*first jumbotron*/
+.container{
+    max-width: 1600px;
+    width: 100%;
+    padding: 0%;    
+    position: relative;
+    text-align: center;
+    
+
+}
+.text-box{
+    position: absolute;
+    /* border: red 1px solid; */
+    margin-top: 100px;
+    /* height: 200px; */
+    bottom: 50%;
+    left: 100px;
+    text-align: left;
+}
+.text-box-1{
+    position: absolute;
+    /* border: red 1px solid; */
+    margin-top: 100px;
+    /* height: 200px; */
+    bottom: 30%;
+    left: 100px;
+    text-align: left;
+}
+.headings{
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+p{
+    font-family: Assistant, sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+}
+.btn-order-now{
+    position: absolute;
+    bottom: 30%;
+    left: 100px;
+    width: 200px;
+}
+/* second jumbotron */
+.jumbo-2{
+    height: 540px;
+}
+.img-footer{
+    width: 100%;
+    max-width: 1600px;
+    margin-top: -50px;
+}
+
+@media screen and (max-width:500px){
+    .container-practice{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+}
